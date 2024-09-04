@@ -1,4 +1,4 @@
-
+m
 * {
 	margin: 0;
 	padding: 0;
@@ -93,7 +93,7 @@ input[type="radio"] {
 #ppp:checked + li {
 	height: 0px;
 }
-#preferences:checked + li {
+#beamng:checked + li {
     height: 179px;
 }
 #tools:checked + li {
