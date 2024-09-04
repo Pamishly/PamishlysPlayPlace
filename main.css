@@ -69,6 +69,7 @@ label.title {
 	padding: 10px 15px;
 	cursor: pointer;
     transition: all .25s;
+    overflow: hidden;
 }
 .sidebutton{
 	font-size: 12px;
