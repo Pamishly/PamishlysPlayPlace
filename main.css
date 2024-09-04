@@ -93,10 +93,10 @@ input[type="radio"] {
 #ppp:checked + li {
 	height: 0px;
 }
-#beamng:checked + li {
+#preferences:checked + li {
     height: 179px;
 }
-#tools:checked + li {
+#beamng:checked + li {
     height: 179px;
 }
 #kithack:checked + li {
