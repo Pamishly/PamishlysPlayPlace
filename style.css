@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: cyan;
+    font-family: monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1 {
+    color:cyan;
+}
+.enter {
+    border: solid cyan;
+    text-decoration: none;
+    color:cyan;
+    padding: 10px 25px;
+}
+.enter:hover {
+    background: darkcyan;
+}
+.container {
+    border: solid cyan;
+    text-align: center;
+    padding: 30px;
+    width: 500px;
+}
+.container>h1{
+    margin-bottom: 50px;
+}
