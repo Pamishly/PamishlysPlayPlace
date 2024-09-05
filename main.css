@@ -95,7 +95,7 @@ input[type="radio"] {
 #preferences:checked + li {
     height: 179px;
 }
-#tools:checked + li {
+#beamng:checked + li {
     height: 179px;
 }
 #kithack:checked + li {
@@ -114,17 +114,21 @@ i {
 		position: relative;
 	}
 }
-.khcard{
+.card{
     position: relative;
     display: flex;
     flex-flow: column nowrap;
     width: 350px;
-    height: 500px;
+    height: 550px;
     border: solid cyan;
     text-align: center;
     margin: 15px;
+	text-decoration: none;
+	font-weight: unset;
+	font-family: monospace;
+	color: cyan;
 }
-.khcardcontainer{
+.cardcontainer{
     display: flex;
     flex-flow: row wrap;
     align-content: space-around;
@@ -132,13 +136,21 @@ i {
     width:75%;
     margin-left: 12.5%;
 }
-.khcard img{
+.card img{
     width: auto;
     align-content: flex-start;
     justify-content: center;
 }
-.khcard p{
+.card p{
     padding: 15px;
     align-content: center;
     justify-content: center;
+	margin-bottom: 20px;
+	line-height: 26px;
+    font-size: 24px;
+    text-align: center;
+    color: cyan;
+}
+.card:hover{
+	background:#00aeff2c;
 }
