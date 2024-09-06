@@ -154,3 +154,8 @@ i {
 .card:hover{
 	background:#00aeff2c;
 }
+iframe{
+width:100%;
+height:100%;
+}
+	
