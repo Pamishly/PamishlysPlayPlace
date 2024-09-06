@@ -1,4 +1,5 @@
-   <nav class="menu">
+<DOCTYPE html>
+<nav class="menu">
 			<ul>
                 <input type="radio" name="menu" id="ppp">
 				<li>
