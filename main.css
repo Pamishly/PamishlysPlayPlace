@@ -164,3 +164,37 @@ iframe[seamless]{
     padding: 0px;
     overflow: hidden;
 }
+.dwn-button{
+    border: solid cyan;
+    text-decoration: none;
+    color:cyan;
+    padding: 5px 25px;
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%,100%);
+}
+.dwn-button:hover {
+    background: darkcyan;
+}
+.dwn-button p{
+	padding-top: 15px;
+}
+.information{
+	display: flex;
+	flex-flow: column nowrap;
+}
+.information p {
+	margin-bottom: 20px;
+	line-height: 26px;
+    font-size: 24px;
+	justify-content: center;
+    color: cyan;
+}
+.information img {
+	width: 600px;
+	border: cyan 5px solid;
+	align-self: center;
+}
+.information h1 {
+	justify-content: center;
+}
