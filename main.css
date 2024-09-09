@@ -93,7 +93,7 @@ input[type="radio"] {
 	height: 0px;
 }
 #preferences:checked + li {
-    height: 179px;
+    height: 69px;
 }
 #beamng:checked + li {
     height: 179px;
