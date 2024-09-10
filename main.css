@@ -99,7 +99,7 @@ input[type="radio"] {
     height: 179px;
 }
 #kithack:checked + li {
-    height: 69px;
+    height: 103px;
 }
 i {
 	margin-right: 12px;
