@@ -102,7 +102,7 @@ input[type="radio"] {
     height: 103px;
 }
 #projects:checked + li {
-    height: 179px;
+    height: 69px;
 }
 i {
 	margin-right: 12px;
