@@ -101,6 +101,9 @@ input[type="radio"] {
 #kithack:checked + li {
     height: 103px;
 }
+#projects:checked + li {
+    height: 179px;
+}
 i {
 	margin-right: 12px;
 }
