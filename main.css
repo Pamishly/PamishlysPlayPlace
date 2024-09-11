@@ -74,17 +74,17 @@ label.title {
 .sidebutton{
 	font-size: 12px;
 	text-decoration: none;
-	color: #FFF;
+	color: #ff2a6d;
 	display: block;
 	padding: 10px 25px;
 	transition: all .25s;
 }
 .sidebutton:hover {
 	background-color: #444;
-    box-shadow: inset 5px 0px 0px 0px #fff;
+    box-shadow: inset 5px 0px 0px 0px #ff2a6d;
 }
 label:hover {
-	text-shadow: 0px 0px 10px #fff;
+	text-shadow: 0px 0px 10px #ff2a6d;
 }
 input[type="radio"] {
 	display: none;
