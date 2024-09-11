@@ -1,7 +1,7 @@
 body {
     background-color: black;
     background: url("Background.png");
-    color: cyan;
+    color: #ff2a6d;
     font-family: monospace;
     position: absolute;
     top: 50%;
@@ -9,19 +9,19 @@ body {
     transform: translate(-50%,-50%);
 }
 h1 {
-    color:cyan;
+    color:#ff2a6d;
 }
 .enter {
-    border: solid cyan;
+    border: solid #ff2a6d;
     text-decoration: none;
-    color:cyan;
+    color:#ff2a6d;
     padding: 10px 25px;
 }
 .enter:hover {
     background: darkcyan;
 }
 .container {
-    border: solid cyan;
+    border: solid #ff2a6d;
     text-align: center;
     padding: 30px;
     width: 500px;
