@@ -244,10 +244,15 @@ iframe[seamless]{
     color: cyan;
 }
 .information img {
-	width: 600px;
+	width: 450px;
 	border: cyan 5px solid;
 	align-self: center;
 }
+@media screen and (min-width: 600px) {
+	.information img {
+	  width: 600px;
+	}
+  }
 .information h1 {
 	justify-content: center;
 }
