@@ -71,7 +71,7 @@ li {
 }
 label.title {
     text-align: left;
-	font-size: 14px;
+	font-size: 18px;
 	background:#030D22;
 	padding: 10px 15px;
 	cursor: pointer;
@@ -79,7 +79,7 @@ label.title {
     overflow: hidden;
 }
 .sidebutton{
-	font-size: 12px;
+	font-size: 16px;
 	text-decoration: none;
 	color: #722276;
 	display: block;
@@ -102,20 +102,47 @@ label:hover {
 input[type="radio"] {
 	display: none;
 }
+.sitename{
+	height:50px;
+}
+.sitename label {
+	height: 50px;
+	padding: 5px 15px;
+}
+.sitename img{
+	float:left;
+	padding: 0px 0px;
+}
+.sitename p{
+	text-align: left;
+	font-size: 18px;
+	background:#030D22;
+	padding: 10px 15px;
+	cursor: pointer;
+    transition: all .25s;
+	width: 100%;
+	color: #ff2a6d;
+	font-family: Headers;
+	display: block;
+	font-weight: bold;
+}
+.sitename p:hover{
+	background: #0A2F66;
+}
 #ppp:checked + li {
 	height: 0px;
 }
 #preferences:checked + li {
-    height: 67px;
+    height: 71px;
 }
 #beamng:checked + li {
-    height: 163px;
+    height: 179px;
 }
 #kithack:checked + li {
-    height: 99px;
+    height: 107px;
 }
 #projects:checked + li {
-    height: 67px;
+    height: 71px;
 }
 i {
 	margin-right: 12px;
