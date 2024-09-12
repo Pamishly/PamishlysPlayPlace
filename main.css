@@ -4,9 +4,14 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: monospace;
+	font-family: Headers;
     background-color: #030D22;
     box-shadow: inset -8px 0 8px -8px #ff2a6d;
+}
+@font-face {
+	font-family: Headers;
+	src: url("Modenine-2OPd.ttf");
+	font-weight: bold;
 }
 .container {
 	width: 100%;
@@ -16,14 +21,14 @@ nav {
 	position: fixed;
 	display: flex;
 	align-items: flex-start;
-	width: 10%;
+	width: 12%;
 	height: 100%;
 	background-color: #111;
 }
 main {
 	position: fixed;
 	right: 0;
-	width: 90%;
+	width: 88.1%;
 	height: 100%;
 	background: url("Background.png");
 	overflow: auto;
@@ -47,7 +52,7 @@ p {
 li, ul label.title, ul, a {
 	width: 100%;
 	color: #ff2a6d;
-	font-family: 'Montserrat', 'Open Sans', sans-serif;
+	font-family: Headers;
 	display: block;
 	font-weight: bold;
 }
@@ -81,6 +86,7 @@ label.title {
 	padding: 10px 25px;
 	transition: all .25s;
     box-shadow: inset -8px 0 8px -8px #ff2a6d;
+	font-family: Headers;
 }
 .sidebutton:hover {
     box-shadow: inset -15px 0 8px -8px #ff2a6d;
@@ -100,16 +106,16 @@ input[type="radio"] {
 	height: 0px;
 }
 #preferences:checked + li {
-    height: 69px;
+    height: 67px;
 }
 #beamng:checked + li {
-    height: 171px;
+    height: 163px;
 }
 #kithack:checked + li {
-    height: 103px;
+    height: 99px;
 }
 #projects:checked + li {
-    height: 69px;
+    height: 67px;
 }
 i {
 	margin-right: 12px;
@@ -166,10 +172,11 @@ i {
 }
 .card > h3{
 	font-size: 24px;
+	font-family: Headers;
 }
 iframe{
-width:100%;
-height:100%;
+	width:100%;
+	height:100%;
 }
 iframe[seamless]{
     background-color: transparent;
@@ -178,13 +185,19 @@ iframe[seamless]{
     overflow: hidden;
 }
 .dwn-button{
+	position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 150px;
+    height: 70px;
     border: solid cyan;
-    text-decoration: none;
-    color:cyan;
-    padding: 5px 25px;
-	position: absolute;
+    text-align: center;
+    margin: 15px;
+	font-weight: unset;
+	font-family: monospace;
+	color: cyan;
     left: 50%;
-    transform: translate(-50%,100%);
+    transform: translate(-61%,100%);
 }
 .dwn-button:hover {
     background: darkcyan;
