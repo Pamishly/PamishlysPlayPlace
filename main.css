@@ -153,6 +153,11 @@ i {
 		position: relative;
 	}
 }
+@media screen and (max-width: 1600px){
+	label.title{
+		font-size: 14px;
+	}
+}
 .card{
     position: relative;
     display: flex;
