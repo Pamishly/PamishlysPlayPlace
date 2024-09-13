@@ -129,16 +129,16 @@ input[type="radio"] {
 	height: 0px;
 }
 #preferences:checked + li {
-    height: 71px;
+    height: 70px;
 }
 #beamng:checked + li {
-    height: 179px;
+    height: 178px;
 }
 #kithack:checked + li {
-    height: 107px;
+    height: 106px;
 }
 #projects:checked + li {
-    height: 71px;
+    height: 70px;
 }
 i {
 	margin-right: 12px;
