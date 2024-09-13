@@ -116,9 +116,8 @@ input[type="radio"] {
 .sitename p{
 	text-align: left;
 	font-size: 18px;
-	padding: 10px 15px;
+	padding: 10px 25px;
 	cursor: pointer;
-    transition: all .25s;
 	width: 100%;
 	color: #ff2a6d;
 	font-family: Headers;
