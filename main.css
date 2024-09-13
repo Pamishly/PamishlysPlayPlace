@@ -116,7 +116,6 @@ input[type="radio"] {
 .sitename p{
 	text-align: left;
 	font-size: 18px;
-	background:#030D22;
 	padding: 10px 15px;
 	cursor: pointer;
     transition: all .25s;
@@ -125,9 +124,6 @@ input[type="radio"] {
 	font-family: Headers;
 	display: block;
 	font-weight: bold;
-}
-.sitename p:hover{
-	background: #0A2F66;
 }
 #ppp:checked + li {
 	height: 0px;
