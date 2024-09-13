@@ -155,6 +155,9 @@ i {
 }
 @media screen and (max-width: 1600px){
 	label.title{
+		font-size: 16px;
+	}
+	.sidebutton{
 		font-size: 14px;
 	}
 }
