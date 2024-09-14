@@ -153,14 +153,6 @@ i {
 		position: relative;
 	}
 }
-@media screen and (max-width: 1600px){
-	label.title{
-		font-size: 16px;
-	}
-	.sidebutton{
-		font-size: 14px;
-	}
-}
 .card{
     position: relative;
     display: flex;
@@ -282,8 +274,8 @@ iframe[seamless]{
 		  margin-bottom: 5px;
 	  }
 	  p	{
-		  font-size: 12px;
-		  line-height: 14px;
+		  font-size: 10px;
+		  line-height: 12px;
 	  }
 	  main{
 		height: 100vh;
