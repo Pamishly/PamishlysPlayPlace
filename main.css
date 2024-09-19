@@ -35,7 +35,7 @@ main {
 	padding: 40px;
     color: cyan;
 }
-@media scren and (max-width: 1800px){
+@media screen and (max-width: 1800px){
 	nav {
 		width: 17%;
 	}
