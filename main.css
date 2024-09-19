@@ -153,7 +153,7 @@ i {
 		position: relative;
 	}
 }
-@media scren and (max-width: 1600px){
+@media scren and (max-width: 1800px){
 	nav {
 		width: 17%;
 	}
