@@ -153,6 +153,14 @@ i {
 		position: relative;
 	}
 }
+@media scren and (max-width: 1600px){
+	nav {
+		width: 17%;
+	}
+	main {
+		width: 83.1%;
+	}
+}
 .card{
     position: relative;
     display: flex;
