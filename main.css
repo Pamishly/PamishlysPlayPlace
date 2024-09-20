@@ -237,7 +237,7 @@ iframe[seamless]{
 	padding-top: 22px;
 }
 .dwn-button a{
-	text-decoration: none;
+	text-decoration-thickness: 0px;
 }
 .information{
 	display: flex;
