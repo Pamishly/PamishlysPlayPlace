@@ -229,12 +229,13 @@ iframe[seamless]{
 	color: cyan;
     left: 50%;
     transform: translate(-61%,100%);
+	text-decoration: none;
 }
 .dwn-button:hover {
     background: darkcyan;
 }
 .dwn-button p{
-	padding-top: 15px;
+	padding-top: 30px;
 }
 .information{
 	display: flex;
