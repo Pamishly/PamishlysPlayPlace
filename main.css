@@ -234,7 +234,9 @@ iframe[seamless]{
     background: darkcyan;
 }
 .dwn-button p{
-	padding-top: 18px;
+	padding-top: 22px;
+}
+.dwn-button a{
 	text-decoration: none;
 }
 .information{
