@@ -228,7 +228,7 @@ iframe[seamless]{
 	font-family: monospace;
 	color: cyan;
     left: 50%;
-    transform: translate(-61%,100%);
+    transform: translate(-61%,95%);
 }
 .dwn-button:hover {
     background: darkcyan;
