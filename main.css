@@ -304,3 +304,9 @@ iframe[seamless]{
 .main::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
+.scrapped {
+	color: #ff2a6d;
+}
+.functional {
+	color: rgb(0, 255, 106);
+}
